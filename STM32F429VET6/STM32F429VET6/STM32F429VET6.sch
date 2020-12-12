@@ -385,349 +385,1141 @@ $EndComp
 $Comp
 L Switch:SW_DIP_x02 SW?
 U 1 1 5FE76904
-P 2300 3350
+P 1350 3350
 AR Path="/5FD5E119/5FE76904" Ref="SW?"  Part="1" 
 AR Path="/5FE76904" Ref="SW?"  Part="1" 
-F 0 "SW?" H 2300 3645 20  0000 C CNN
-F 1 "SW_DIP_x02" H 2300 3602 20  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 2300 3350 50  0001 C CNN
-F 3 "~" H 2300 3350 50  0001 C CNN
-	1    2300 3350
+F 0 "SW?" H 1350 3645 20  0000 C CNN
+F 1 "SW_DIP_x02" H 1350 3602 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 1350 3350 50  0001 C CNN
+F 3 "~" H 1350 3350 50  0001 C CNN
+	1    1350 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3450 2650 3400
+	1700 3450 1700 3400
 $Comp
 L power:GND #PWR?
 U 1 1 5FE7690B
-P 2650 3450
+P 1700 3450
 AR Path="/5FD5E119/5FE7690B" Ref="#PWR?"  Part="1" 
 AR Path="/5FE7690B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2650 3200 50  0001 C CNN
-F 1 "GND" H 2655 3277 50  0000 C CNN
-F 2 "" H 2650 3450 50  0001 C CNN
-F 3 "" H 2650 3450 50  0001 C CNN
-	1    2650 3450
+F 0 "#PWR?" H 1700 3200 50  0001 C CNN
+F 1 "GND" H 1705 3277 50  0000 C CNN
+F 2 "" H 1700 3450 50  0001 C CNN
+F 3 "" H 1700 3450 50  0001 C CNN
+	1    1700 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 3250 1800 3350
+	850  3250 850  3350
 Wire Wire Line
-	2000 3150 2000 3250
+	1050 3150 1050 3250
 $Comp
 L Device:C_Small C?
 U 1 1 5FE76918
-P 1800 3450
+P 850 3450
 AR Path="/5FD5E119/5FE76918" Ref="C?"  Part="1" 
 AR Path="/5FE76918" Ref="C?"  Part="1" 
-F 0 "C?" H 1892 3472 20  0000 L CNN
-F 1 "0.1uf/25V" H 1892 3429 20  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 3450 50  0001 C CNN
-F 3 "~" H 1800 3450 50  0001 C CNN
-	1    1800 3450
+F 0 "C?" H 942 3472 20  0000 L CNN
+F 1 "0.1uf/25V" H 942 3429 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 3450 50  0001 C CNN
+F 3 "~" H 850 3450 50  0001 C CNN
+	1    850  3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 2950 2000 2800
-Text GLabel 2000 2800 1    39   Input ~ 0
+	1050 2950 1050 2800
+Text GLabel 1050 2800 1    39   Input ~ 0
 3.3V
 $Comp
 L Device:R_Small R?
 U 1 1 5FE76920
-P 2000 3050
+P 1050 3050
 AR Path="/5FD5E119/5FE76920" Ref="R?"  Part="1" 
 AR Path="/5FE76920" Ref="R?"  Part="1" 
-F 0 "R?" H 2059 3072 20  0000 L CNN
-F 1 "10K" H 2059 3029 20  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 3050 50  0001 C CNN
-F 3 "~" H 2000 3050 50  0001 C CNN
-	1    2000 3050
+F 0 "R?" H 1109 3072 20  0000 L CNN
+F 1 "10K" H 1109 3029 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1050 3050 50  0001 C CNN
+F 3 "~" H 1050 3050 50  0001 C CNN
+	1    1050 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 3250 2650 3250
+	1650 3250 1700 3250
 Wire Wire Line
-	2650 3250 2650 3350
+	1700 3250 1700 3350
 Wire Wire Line
-	2650 3350 2600 3350
-Connection ~ 2650 3350
-Connection ~ 2000 3250
+	1700 3350 1650 3350
+Connection ~ 1700 3350
+Connection ~ 1050 3250
 Wire Wire Line
-	2000 3250 2000 3350
+	1050 3250 1050 3350
 Wire Wire Line
-	1800 3550 1800 3650
+	850  3550 850  3650
 Wire Wire Line
-	1800 3650 2550 3650
+	850  3650 1600 3650
 Wire Wire Line
-	2550 3650 2550 3400
+	1600 3650 1600 3400
 Wire Wire Line
-	2550 3400 2650 3400
-Connection ~ 2650 3400
+	1600 3400 1700 3400
+Connection ~ 1700 3400
 Wire Wire Line
-	2650 3400 2650 3350
+	1700 3400 1700 3350
 Wire Wire Line
-	2000 3250 1800 3250
-Text GLabel 1800 6550 0    39   Input ~ 0
+	1050 3250 850  3250
+Text GLabel 850  6550 0    39   Input ~ 0
 ENTER
-Text GLabel 1800 5450 0    39   Input ~ 0
+Text GLabel 850  5450 0    39   Input ~ 0
 DOWN
-Text GLabel 1800 4350 0    39   Input ~ 0
+Text GLabel 850  4350 0    39   Input ~ 0
 UP
-Text GLabel 1800 3250 0    39   Input ~ 0
+Text GLabel 850  3250 0    39   Input ~ 0
 MENU
 $Comp
 L Switch:SW_DIP_x02 SW?
 U 1 1 5FE8F17D
-P 2300 4450
+P 1350 4450
 AR Path="/5FD5E119/5FE8F17D" Ref="SW?"  Part="1" 
 AR Path="/5FE8F17D" Ref="SW?"  Part="1" 
-F 0 "SW?" H 2300 4745 20  0000 C CNN
-F 1 "SW_DIP_x02" H 2300 4702 20  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 2300 4450 50  0001 C CNN
-F 3 "~" H 2300 4450 50  0001 C CNN
-	1    2300 4450
+F 0 "SW?" H 1350 4745 20  0000 C CNN
+F 1 "SW_DIP_x02" H 1350 4702 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 1350 4450 50  0001 C CNN
+F 3 "~" H 1350 4450 50  0001 C CNN
+	1    1350 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 4550 2650 4500
+	1700 4550 1700 4500
 $Comp
 L power:GND #PWR?
 U 1 1 5FE8F184
-P 2650 4550
+P 1700 4550
 AR Path="/5FD5E119/5FE8F184" Ref="#PWR?"  Part="1" 
 AR Path="/5FE8F184" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2650 4300 50  0001 C CNN
-F 1 "GND" H 2655 4377 50  0000 C CNN
-F 2 "" H 2650 4550 50  0001 C CNN
-F 3 "" H 2650 4550 50  0001 C CNN
-	1    2650 4550
+F 0 "#PWR?" H 1700 4300 50  0001 C CNN
+F 1 "GND" H 1705 4377 50  0000 C CNN
+F 2 "" H 1700 4550 50  0001 C CNN
+F 3 "" H 1700 4550 50  0001 C CNN
+	1    1700 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 4350 1800 4450
+	850  4350 850  4450
 Wire Wire Line
-	2000 4250 2000 4350
+	1050 4250 1050 4350
 $Comp
 L Device:C_Small C?
 U 1 1 5FE8F18C
-P 1800 4550
+P 850 4550
 AR Path="/5FD5E119/5FE8F18C" Ref="C?"  Part="1" 
 AR Path="/5FE8F18C" Ref="C?"  Part="1" 
-F 0 "C?" H 1892 4572 20  0000 L CNN
-F 1 "0.1uf/25V" H 1892 4529 20  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 4550 50  0001 C CNN
-F 3 "~" H 1800 4550 50  0001 C CNN
-	1    1800 4550
+F 0 "C?" H 942 4572 20  0000 L CNN
+F 1 "0.1uf/25V" H 942 4529 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 4550 50  0001 C CNN
+F 3 "~" H 850 4550 50  0001 C CNN
+	1    850  4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 4050 2000 3900
-Text GLabel 2000 3900 1    39   Input ~ 0
+	1050 4050 1050 3900
+Text GLabel 1050 3900 1    39   Input ~ 0
 3.3V
 $Comp
 L Device:R_Small R?
 U 1 1 5FE8F194
-P 2000 4150
+P 1050 4150
 AR Path="/5FD5E119/5FE8F194" Ref="R?"  Part="1" 
 AR Path="/5FE8F194" Ref="R?"  Part="1" 
-F 0 "R?" H 2059 4172 20  0000 L CNN
-F 1 "10K" H 2059 4129 20  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 4150 50  0001 C CNN
-F 3 "~" H 2000 4150 50  0001 C CNN
-	1    2000 4150
+F 0 "R?" H 1109 4172 20  0000 L CNN
+F 1 "10K" H 1109 4129 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1050 4150 50  0001 C CNN
+F 3 "~" H 1050 4150 50  0001 C CNN
+	1    1050 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 4350 2650 4350
+	1650 4350 1700 4350
 Wire Wire Line
-	2650 4350 2650 4450
+	1700 4350 1700 4450
 Wire Wire Line
-	2650 4450 2600 4450
-Connection ~ 2650 4450
-Connection ~ 2000 4350
+	1700 4450 1650 4450
+Connection ~ 1700 4450
+Connection ~ 1050 4350
 Wire Wire Line
-	2000 4350 2000 4450
+	1050 4350 1050 4450
 Wire Wire Line
-	1800 4650 1800 4750
+	850  4650 850  4750
 Wire Wire Line
-	1800 4750 2550 4750
+	850  4750 1600 4750
 Wire Wire Line
-	2550 4750 2550 4500
+	1600 4750 1600 4500
 Wire Wire Line
-	2550 4500 2650 4500
-Connection ~ 2650 4500
+	1600 4500 1700 4500
+Connection ~ 1700 4500
 Wire Wire Line
-	2650 4500 2650 4450
+	1700 4500 1700 4450
 Wire Wire Line
-	2000 4350 1800 4350
+	1050 4350 850  4350
 $Comp
 L Switch:SW_DIP_x02 SW?
 U 1 1 5FE9151E
-P 2300 5550
+P 1350 5550
 AR Path="/5FD5E119/5FE9151E" Ref="SW?"  Part="1" 
 AR Path="/5FE9151E" Ref="SW?"  Part="1" 
-F 0 "SW?" H 2300 5845 20  0000 C CNN
-F 1 "SW_DIP_x02" H 2300 5802 20  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 2300 5550 50  0001 C CNN
-F 3 "~" H 2300 5550 50  0001 C CNN
-	1    2300 5550
+F 0 "SW?" H 1350 5845 20  0000 C CNN
+F 1 "SW_DIP_x02" H 1350 5802 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 1350 5550 50  0001 C CNN
+F 3 "~" H 1350 5550 50  0001 C CNN
+	1    1350 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 5650 2650 5600
+	1700 5650 1700 5600
 $Comp
 L power:GND #PWR?
 U 1 1 5FE91525
-P 2650 5650
+P 1700 5650
 AR Path="/5FD5E119/5FE91525" Ref="#PWR?"  Part="1" 
 AR Path="/5FE91525" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2650 5400 50  0001 C CNN
-F 1 "GND" H 2655 5477 50  0000 C CNN
-F 2 "" H 2650 5650 50  0001 C CNN
-F 3 "" H 2650 5650 50  0001 C CNN
-	1    2650 5650
+F 0 "#PWR?" H 1700 5400 50  0001 C CNN
+F 1 "GND" H 1705 5477 50  0000 C CNN
+F 2 "" H 1700 5650 50  0001 C CNN
+F 3 "" H 1700 5650 50  0001 C CNN
+	1    1700 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 5450 1800 5550
+	850  5450 850  5550
 Wire Wire Line
-	2000 5350 2000 5450
+	1050 5350 1050 5450
 $Comp
 L Device:C_Small C?
 U 1 1 5FE9152D
-P 1800 5650
+P 850 5650
 AR Path="/5FD5E119/5FE9152D" Ref="C?"  Part="1" 
 AR Path="/5FE9152D" Ref="C?"  Part="1" 
-F 0 "C?" H 1892 5672 20  0000 L CNN
-F 1 "0.1uf/25V" H 1892 5629 20  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 5650 50  0001 C CNN
-F 3 "~" H 1800 5650 50  0001 C CNN
-	1    1800 5650
+F 0 "C?" H 942 5672 20  0000 L CNN
+F 1 "0.1uf/25V" H 942 5629 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 5650 50  0001 C CNN
+F 3 "~" H 850 5650 50  0001 C CNN
+	1    850  5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 5150 2000 5000
-Text GLabel 2000 5000 1    39   Input ~ 0
+	1050 5150 1050 5000
+Text GLabel 1050 5000 1    39   Input ~ 0
 3.3V
 $Comp
 L Device:R_Small R?
 U 1 1 5FE91535
-P 2000 5250
+P 1050 5250
 AR Path="/5FD5E119/5FE91535" Ref="R?"  Part="1" 
 AR Path="/5FE91535" Ref="R?"  Part="1" 
-F 0 "R?" H 2059 5272 20  0000 L CNN
-F 1 "10K" H 2059 5229 20  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 5250 50  0001 C CNN
-F 3 "~" H 2000 5250 50  0001 C CNN
-	1    2000 5250
+F 0 "R?" H 1109 5272 20  0000 L CNN
+F 1 "10K" H 1109 5229 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1050 5250 50  0001 C CNN
+F 3 "~" H 1050 5250 50  0001 C CNN
+	1    1050 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 5450 2650 5450
+	1650 5450 1700 5450
 Wire Wire Line
-	2650 5450 2650 5550
+	1700 5450 1700 5550
 Wire Wire Line
-	2650 5550 2600 5550
-Connection ~ 2650 5550
-Connection ~ 2000 5450
+	1700 5550 1650 5550
+Connection ~ 1700 5550
+Connection ~ 1050 5450
 Wire Wire Line
-	2000 5450 2000 5550
+	1050 5450 1050 5550
 Wire Wire Line
-	1800 5750 1800 5850
+	850  5750 850  5850
 Wire Wire Line
-	1800 5850 2550 5850
+	850  5850 1600 5850
 Wire Wire Line
-	2550 5850 2550 5600
+	1600 5850 1600 5600
 Wire Wire Line
-	2550 5600 2650 5600
-Connection ~ 2650 5600
+	1600 5600 1700 5600
+Connection ~ 1700 5600
 Wire Wire Line
-	2650 5600 2650 5550
+	1700 5600 1700 5550
 Wire Wire Line
-	2000 5450 1800 5450
+	1050 5450 850  5450
 $Comp
 L Switch:SW_DIP_x02 SW?
 U 1 1 5FE947B2
-P 2300 6650
+P 1350 6650
 AR Path="/5FD5E119/5FE947B2" Ref="SW?"  Part="1" 
 AR Path="/5FE947B2" Ref="SW?"  Part="1" 
-F 0 "SW?" H 2300 6945 20  0000 C CNN
-F 1 "SW_DIP_x02" H 2300 6902 20  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 2300 6650 50  0001 C CNN
-F 3 "~" H 2300 6650 50  0001 C CNN
-	1    2300 6650
+F 0 "SW?" H 1350 6945 20  0000 C CNN
+F 1 "SW_DIP_x02" H 1350 6902 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 1350 6650 50  0001 C CNN
+F 3 "~" H 1350 6650 50  0001 C CNN
+	1    1350 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 6750 2650 6700
+	1700 6750 1700 6700
 $Comp
 L power:GND #PWR?
 U 1 1 5FE947B9
-P 2650 6750
+P 1700 6750
 AR Path="/5FD5E119/5FE947B9" Ref="#PWR?"  Part="1" 
 AR Path="/5FE947B9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2650 6500 50  0001 C CNN
-F 1 "GND" H 2655 6577 50  0000 C CNN
-F 2 "" H 2650 6750 50  0001 C CNN
-F 3 "" H 2650 6750 50  0001 C CNN
-	1    2650 6750
+F 0 "#PWR?" H 1700 6500 50  0001 C CNN
+F 1 "GND" H 1705 6577 50  0000 C CNN
+F 2 "" H 1700 6750 50  0001 C CNN
+F 3 "" H 1700 6750 50  0001 C CNN
+	1    1700 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 6550 1800 6650
+	850  6550 850  6650
 Wire Wire Line
-	2000 6450 2000 6550
+	1050 6450 1050 6550
 $Comp
 L Device:C_Small C?
 U 1 1 5FE947C1
-P 1800 6750
+P 850 6750
 AR Path="/5FD5E119/5FE947C1" Ref="C?"  Part="1" 
 AR Path="/5FE947C1" Ref="C?"  Part="1" 
-F 0 "C?" H 1892 6772 20  0000 L CNN
-F 1 "0.1uf/25V" H 1892 6729 20  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 6750 50  0001 C CNN
-F 3 "~" H 1800 6750 50  0001 C CNN
-	1    1800 6750
+F 0 "C?" H 942 6772 20  0000 L CNN
+F 1 "0.1uf/25V" H 942 6729 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 6750 50  0001 C CNN
+F 3 "~" H 850 6750 50  0001 C CNN
+	1    850  6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6250 2000 6100
-Text GLabel 2000 6100 1    39   Input ~ 0
+	1050 6250 1050 6100
+Text GLabel 1050 6100 1    39   Input ~ 0
 3.3V
 $Comp
 L Device:R_Small R?
 U 1 1 5FE947C9
-P 2000 6350
+P 1050 6350
 AR Path="/5FD5E119/5FE947C9" Ref="R?"  Part="1" 
 AR Path="/5FE947C9" Ref="R?"  Part="1" 
-F 0 "R?" H 2059 6372 20  0000 L CNN
-F 1 "10K" H 2059 6329 20  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 6350 50  0001 C CNN
-F 3 "~" H 2000 6350 50  0001 C CNN
-	1    2000 6350
+F 0 "R?" H 1109 6372 20  0000 L CNN
+F 1 "10K" H 1109 6329 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1050 6350 50  0001 C CNN
+F 3 "~" H 1050 6350 50  0001 C CNN
+	1    1050 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 6550 2650 6550
+	1650 6550 1700 6550
 Wire Wire Line
-	2650 6550 2650 6650
+	1700 6550 1700 6650
 Wire Wire Line
-	2650 6650 2600 6650
-Connection ~ 2650 6650
-Connection ~ 2000 6550
+	1700 6650 1650 6650
+Connection ~ 1700 6650
+Connection ~ 1050 6550
 Wire Wire Line
-	2000 6550 2000 6650
+	1050 6550 1050 6650
 Wire Wire Line
-	1800 6850 1800 6950
+	850  6850 850  6950
 Wire Wire Line
-	1800 6950 2550 6950
+	850  6950 1600 6950
 Wire Wire Line
-	2550 6950 2550 6700
+	1600 6950 1600 6700
 Wire Wire Line
-	2550 6700 2650 6700
-Connection ~ 2650 6700
+	1600 6700 1700 6700
+Connection ~ 1700 6700
 Wire Wire Line
-	2650 6700 2650 6650
+	1700 6700 1700 6650
 Wire Wire Line
-	2000 6550 1800 6550
+	1050 6550 850  6550
+Text GLabel 5600 5100 2    39   Input ~ 0
+SW_CO3
+Text GLabel 4800 5100 2    39   Input ~ 0
+SW_CO2
+Text GLabel 2400 6100 0    39   Input ~ 0
+SW_RW2
+Text GLabel 4000 5100 2    39   Input ~ 0
+SW_CO1
+Text GLabel 2400 5500 0    39   Input ~ 0
+SW_RW1
+Text GLabel 2400 7550 0    39   Input ~ 0
+SW_RW4
+Text GLabel 2400 6800 0    39   Input ~ 0
+SW_RW3
+Wire Wire Line
+	3100 5300 3100 5150
+Text GLabel 3100 5150 1    39   Input ~ 0
+3.3V
+$Comp
+L Device:R_Small R?
+U 1 1 5FEBDD21
+P 3100 5400
+AR Path="/5FD5E119/5FEBDD21" Ref="R?"  Part="1" 
+AR Path="/5FEBDD21" Ref="R?"  Part="1" 
+F 0 "R?" H 3159 5422 20  0000 L CNN
+F 1 "10K" H 3159 5379 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3100 5400 50  0001 C CNN
+F 3 "~" H 3100 5400 50  0001 C CNN
+	1    3100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FEC5658
+P 2650 5500
+AR Path="/5FD5E119/5FEC5658" Ref="R?"  Part="1" 
+AR Path="/5FEC5658" Ref="R?"  Part="1" 
+F 0 "R?" V 2526 5500 20  0000 C CNN
+F 1 "100E" V 2569 5500 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 5500 50  0001 C CNN
+F 3 "~" H 2650 5500 50  0001 C CNN
+	1    2650 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 5500 2400 5500
+Wire Wire Line
+	2750 5500 3100 5500
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FEE1BDA
+P 3650 5450
+AR Path="/5FD5E119/5FEE1BDA" Ref="SW?"  Part="1" 
+AR Path="/5FEE1BDA" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3650 5745 20  0000 C CNN
+F 1 "SW_DIP_x02" H 3650 5702 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 3650 5450 50  0001 C CNN
+F 3 "~" H 3650 5450 50  0001 C CNN
+	1    3650 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 5500
+Connection ~ 3350 5450
+Wire Wire Line
+	3350 5450 3350 5350
+Wire Wire Line
+	3950 5350 3950 5450
+Wire Wire Line
+	3950 5350 3950 5100
+Connection ~ 3950 5350
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FEF6946
+P 4450 5450
+AR Path="/5FD5E119/5FEF6946" Ref="SW?"  Part="1" 
+AR Path="/5FEF6946" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4450 5745 20  0000 C CNN
+F 1 "SW_DIP_x02" H 4450 5702 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 4450 5450 50  0001 C CNN
+F 3 "~" H 4450 5450 50  0001 C CNN
+	1    4450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FEFAF53
+P 5250 5450
+AR Path="/5FD5E119/5FEFAF53" Ref="SW?"  Part="1" 
+AR Path="/5FEFAF53" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5250 5745 20  0000 C CNN
+F 1 "SW_DIP_x02" H 5250 5702 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5250 5450 50  0001 C CNN
+F 3 "~" H 5250 5450 50  0001 C CNN
+	1    5250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5600 4150 5600
+Wire Wire Line
+	4150 5600 4150 5450
+Wire Wire Line
+	4150 5450 4150 5350
+Connection ~ 4150 5450
+Wire Wire Line
+	4150 5600 4950 5600
+Wire Wire Line
+	4950 5600 4950 5450
+Connection ~ 4150 5600
+Wire Wire Line
+	4950 5450 4950 5350
+Connection ~ 4950 5450
+Wire Wire Line
+	3100 5500 3100 5600
+Wire Wire Line
+	3100 5600 3350 5600
+Connection ~ 3350 5600
+Wire Wire Line
+	3350 5450 3350 5600
+Wire Wire Line
+	4750 5450 4750 5350
+Wire Wire Line
+	4750 5100 4800 5100
+Connection ~ 4750 5350
+Wire Wire Line
+	4750 5350 4750 5100
+Wire Wire Line
+	5550 5450 5550 5350
+Wire Wire Line
+	5550 5100 5600 5100
+Connection ~ 5550 5350
+Wire Wire Line
+	5550 5350 5550 5100
+Wire Wire Line
+	4000 5100 3950 5100
+$Comp
+L Device:R_Small R?
+U 1 1 5FF3AAA7
+P 3100 6000
+AR Path="/5FD5E119/5FF3AAA7" Ref="R?"  Part="1" 
+AR Path="/5FF3AAA7" Ref="R?"  Part="1" 
+F 0 "R?" H 3159 6022 20  0000 L CNN
+F 1 "10K" H 3159 5979 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3100 6000 50  0001 C CNN
+F 3 "~" H 3100 6000 50  0001 C CNN
+	1    3100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FF3AAAD
+P 2650 6100
+AR Path="/5FD5E119/5FF3AAAD" Ref="R?"  Part="1" 
+AR Path="/5FF3AAAD" Ref="R?"  Part="1" 
+F 0 "R?" V 2526 6100 20  0000 C CNN
+F 1 "100E" V 2569 6100 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 6100 50  0001 C CNN
+F 3 "~" H 2650 6100 50  0001 C CNN
+	1    2650 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6100 2400 6100
+Wire Wire Line
+	2750 6100 3100 6100
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FF3AAB5
+P 3650 6050
+AR Path="/5FD5E119/5FF3AAB5" Ref="SW?"  Part="1" 
+AR Path="/5FF3AAB5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3650 6345 20  0000 C CNN
+F 1 "SW_DIP_x02" H 3650 6302 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 3650 6050 50  0001 C CNN
+F 3 "~" H 3650 6050 50  0001 C CNN
+	1    3650 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 6100
+Connection ~ 3350 6050
+Wire Wire Line
+	3350 6050 3350 5950
+Wire Wire Line
+	3950 5950 3950 6050
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FF3AABF
+P 4450 6050
+AR Path="/5FD5E119/5FF3AABF" Ref="SW?"  Part="1" 
+AR Path="/5FF3AABF" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4450 6345 20  0000 C CNN
+F 1 "SW_DIP_x02" H 4450 6302 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 4450 6050 50  0001 C CNN
+F 3 "~" H 4450 6050 50  0001 C CNN
+	1    4450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FF3AAC5
+P 5250 6050
+AR Path="/5FD5E119/5FF3AAC5" Ref="SW?"  Part="1" 
+AR Path="/5FF3AAC5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5250 6345 20  0000 C CNN
+F 1 "SW_DIP_x02" H 5250 6302 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5250 6050 50  0001 C CNN
+F 3 "~" H 5250 6050 50  0001 C CNN
+	1    5250 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6200 4150 6200
+Wire Wire Line
+	4150 6200 4150 6050
+Wire Wire Line
+	4150 6050 4150 5950
+Connection ~ 4150 6050
+Wire Wire Line
+	4150 6200 4950 6200
+Wire Wire Line
+	4950 6200 4950 6050
+Connection ~ 4150 6200
+Wire Wire Line
+	4950 6050 4950 5950
+Connection ~ 4950 6050
+Wire Wire Line
+	3100 6100 3100 6200
+Wire Wire Line
+	3100 6200 3350 6200
+Connection ~ 3350 6200
+Wire Wire Line
+	3350 6050 3350 6200
+Wire Wire Line
+	4750 6050 4750 5950
+Text GLabel 3100 5800 1    39   Input ~ 0
+3.3V
+Wire Wire Line
+	3100 5900 3100 5800
+Wire Wire Line
+	3950 5950 3950 5450
+Connection ~ 3950 5950
+Connection ~ 3950 5450
+Wire Wire Line
+	4750 5950 4750 5450
+Connection ~ 4750 5950
+Connection ~ 4750 5450
+Wire Wire Line
+	5550 5950 5550 5450
+Connection ~ 5550 5950
+Connection ~ 5550 5450
+$Comp
+L Device:R_Small R?
+U 1 1 5FF8BBCC
+P 3100 6700
+AR Path="/5FD5E119/5FF8BBCC" Ref="R?"  Part="1" 
+AR Path="/5FF8BBCC" Ref="R?"  Part="1" 
+F 0 "R?" H 3159 6722 20  0000 L CNN
+F 1 "10K" H 3159 6679 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3100 6700 50  0001 C CNN
+F 3 "~" H 3100 6700 50  0001 C CNN
+	1    3100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FF8BBD2
+P 2650 6800
+AR Path="/5FD5E119/5FF8BBD2" Ref="R?"  Part="1" 
+AR Path="/5FF8BBD2" Ref="R?"  Part="1" 
+F 0 "R?" V 2526 6800 20  0000 C CNN
+F 1 "100E" V 2569 6800 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 6800 50  0001 C CNN
+F 3 "~" H 2650 6800 50  0001 C CNN
+	1    2650 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6800 2400 6800
+Wire Wire Line
+	2750 6800 3100 6800
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FF8BBDA
+P 3650 6750
+AR Path="/5FD5E119/5FF8BBDA" Ref="SW?"  Part="1" 
+AR Path="/5FF8BBDA" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3650 7045 20  0000 C CNN
+F 1 "SW_DIP_x02" H 3650 7002 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 3650 6750 50  0001 C CNN
+F 3 "~" H 3650 6750 50  0001 C CNN
+	1    3650 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 6800
+Connection ~ 3350 6750
+Wire Wire Line
+	3350 6750 3350 6650
+Wire Wire Line
+	3950 6650 3950 6750
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FF8BBE4
+P 4450 6750
+AR Path="/5FD5E119/5FF8BBE4" Ref="SW?"  Part="1" 
+AR Path="/5FF8BBE4" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4450 7045 20  0000 C CNN
+F 1 "SW_DIP_x02" H 4450 7002 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 4450 6750 50  0001 C CNN
+F 3 "~" H 4450 6750 50  0001 C CNN
+	1    4450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FF8BBEA
+P 5250 6750
+AR Path="/5FD5E119/5FF8BBEA" Ref="SW?"  Part="1" 
+AR Path="/5FF8BBEA" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5250 7045 20  0000 C CNN
+F 1 "SW_DIP_x02" H 5250 7002 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5250 6750 50  0001 C CNN
+F 3 "~" H 5250 6750 50  0001 C CNN
+	1    5250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6900 4150 6750
+Wire Wire Line
+	4150 6750 4150 6650
+Connection ~ 4150 6750
+Wire Wire Line
+	4150 6900 4950 6900
+Wire Wire Line
+	4950 6900 4950 6750
+Connection ~ 4150 6900
+Wire Wire Line
+	4950 6750 4950 6650
+Connection ~ 4950 6750
+Wire Wire Line
+	3100 6800 3100 6900
+Wire Wire Line
+	3100 6900 3350 6900
+Connection ~ 3350 6900
+Wire Wire Line
+	3350 6750 3350 6900
+Wire Wire Line
+	4750 6750 4750 6650
+Wire Wire Line
+	5550 6750 5550 6650
+Text GLabel 3100 6500 1    39   Input ~ 0
+3.3V
+Wire Wire Line
+	3100 6600 3100 6500
+Connection ~ 3950 6650
+Connection ~ 4750 6650
+Connection ~ 5550 6650
+Wire Wire Line
+	3950 6050 3950 6650
+Connection ~ 3950 6050
+Wire Wire Line
+	4750 6050 4750 6650
+Connection ~ 4750 6050
+Wire Wire Line
+	5550 5950 5550 6050
+Connection ~ 5550 6050
+Wire Wire Line
+	5550 6050 5550 6650
+$Comp
+L Device:R_Small R?
+U 1 1 5FFBEB6F
+P 3100 7450
+AR Path="/5FD5E119/5FFBEB6F" Ref="R?"  Part="1" 
+AR Path="/5FFBEB6F" Ref="R?"  Part="1" 
+F 0 "R?" H 3159 7472 20  0000 L CNN
+F 1 "10K" H 3159 7429 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3100 7450 50  0001 C CNN
+F 3 "~" H 3100 7450 50  0001 C CNN
+	1    3100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FFBEB75
+P 2650 7550
+AR Path="/5FD5E119/5FFBEB75" Ref="R?"  Part="1" 
+AR Path="/5FFBEB75" Ref="R?"  Part="1" 
+F 0 "R?" V 2526 7550 20  0000 C CNN
+F 1 "100E" V 2569 7550 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 7550 50  0001 C CNN
+F 3 "~" H 2650 7550 50  0001 C CNN
+	1    2650 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 7550 2400 7550
+Wire Wire Line
+	2750 7550 3100 7550
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FFBEB7D
+P 3650 7500
+AR Path="/5FD5E119/5FFBEB7D" Ref="SW?"  Part="1" 
+AR Path="/5FFBEB7D" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3650 7795 20  0000 C CNN
+F 1 "SW_DIP_x02" H 3650 7752 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 3650 7500 50  0001 C CNN
+F 3 "~" H 3650 7500 50  0001 C CNN
+	1    3650 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 7550
+Connection ~ 3350 7500
+Wire Wire Line
+	3350 7500 3350 7400
+Wire Wire Line
+	3950 7400 3950 7500
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FFBEB87
+P 4450 7500
+AR Path="/5FD5E119/5FFBEB87" Ref="SW?"  Part="1" 
+AR Path="/5FFBEB87" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4450 7795 20  0000 C CNN
+F 1 "SW_DIP_x02" H 4450 7752 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 4450 7500 50  0001 C CNN
+F 3 "~" H 4450 7500 50  0001 C CNN
+	1    4450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5FFBEB8D
+P 5250 7500
+AR Path="/5FD5E119/5FFBEB8D" Ref="SW?"  Part="1" 
+AR Path="/5FFBEB8D" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5250 7795 20  0000 C CNN
+F 1 "SW_DIP_x02" H 5250 7752 20  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5250 7500 50  0001 C CNN
+F 3 "~" H 5250 7500 50  0001 C CNN
+	1    5250 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7650 4150 7650
+Wire Wire Line
+	4150 7650 4150 7500
+Wire Wire Line
+	4150 7500 4150 7400
+Connection ~ 4150 7500
+Wire Wire Line
+	4150 7650 4950 7650
+Wire Wire Line
+	4950 7650 4950 7500
+Connection ~ 4150 7650
+Wire Wire Line
+	4950 7500 4950 7400
+Connection ~ 4950 7500
+Wire Wire Line
+	3100 7550 3100 7650
+Wire Wire Line
+	3100 7650 3350 7650
+Connection ~ 3350 7650
+Wire Wire Line
+	3350 7500 3350 7650
+Wire Wire Line
+	4750 7500 4750 7400
+Wire Wire Line
+	5550 7500 5550 7400
+Text GLabel 3100 7250 1    39   Input ~ 0
+3.3V
+Wire Wire Line
+	3100 7350 3100 7250
+Connection ~ 5550 7400
+Wire Wire Line
+	3350 6900 4150 6900
+Wire Wire Line
+	3950 7400 3950 6750
+Connection ~ 3950 7400
+Connection ~ 3950 6750
+Wire Wire Line
+	4750 7400 4750 6750
+Connection ~ 4750 7400
+Connection ~ 4750 6750
+Wire Wire Line
+	5550 6750 5550 7400
+Connection ~ 5550 6750
+$Comp
+L SN65HVD485ED:SN65HVD485ED U?
+U 1 1 600336D9
+P 3300 2950
+F 0 "U?" H 4400 3337 60  0000 C CNN
+F 1 "SN65HVD485ED" H 4400 3231 60  0000 C CNN
+F 2 "SN65HVD485ED:SN65HVD485ED" H 4400 3190 60  0001 C CNN
+F 3 "" H 3300 2950 60  0000 C CNN
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 2200 1    39   Input ~ 0
+5V
+Wire Wire Line
+	4350 2200 4350 2300
+Wire Wire Line
+	5500 2950 5750 2950
+Wire Wire Line
+	5750 2950 5750 2300
+Wire Wire Line
+	5750 2300 4350 2300
+Connection ~ 4350 2300
+$Comp
+L Device:R_Small R?
+U 1 1 60053B60
+P 3000 2600
+AR Path="/5FD5E119/60053B60" Ref="R?"  Part="1" 
+AR Path="/60053B60" Ref="R?"  Part="1" 
+F 0 "R?" H 3059 2622 20  0000 L CNN
+F 1 "10K" H 3059 2579 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 2600 50  0001 C CNN
+F 3 "~" H 3000 2600 50  0001 C CNN
+	1    3000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2300 3350 2300
+Wire Wire Line
+	3000 2950 3300 2950
+Wire Wire Line
+	3000 2950 3000 2700
+Wire Wire Line
+	3000 2500 3000 2300
+$Comp
+L Device:C_Small C?
+U 1 1 6009C56F
+P 3350 2500
+AR Path="/5FD5E119/6009C56F" Ref="C?"  Part="1" 
+AR Path="/6009C56F" Ref="C?"  Part="1" 
+F 0 "C?" H 3442 2522 20  0000 L CNN
+F 1 "0.1uf/25V" H 3442 2479 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 2500 50  0001 C CNN
+F 3 "~" H 3350 2500 50  0001 C CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2400 3350 2300
+$Comp
+L power:GND #PWR?
+U 1 1 600C6B4E
+P 3350 2600
+AR Path="/5FD5E119/600C6B4E" Ref="#PWR?"  Part="1" 
+AR Path="/600C6B4E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3350 2350 50  0001 C CNN
+F 1 "GND" H 3355 2427 50  0000 C CNN
+F 2 "" H 3350 2600 50  0001 C CNN
+F 3 "" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 2300
+Wire Wire Line
+	3350 2300 4350 2300
+Text GLabel 2550 2950 0    39   Input ~ 0
+USART2_RX
+Text GLabel 2550 3250 0    39   Input ~ 0
+USART2_TX
+Text GLabel 2550 3150 0    39   Input ~ 0
+USART2_DE
+Wire Wire Line
+	2550 2950 3000 2950
+Connection ~ 3000 2950
+Wire Wire Line
+	3300 3050 3150 3050
+Wire Wire Line
+	3150 3050 3150 3150
+Wire Wire Line
+	3150 3150 3300 3150
+Wire Wire Line
+	2550 3150 3150 3150
+Connection ~ 3150 3150
+$Comp
+L Device:R_Small R?
+U 1 1 601362B6
+P 3150 3400
+AR Path="/5FD5E119/601362B6" Ref="R?"  Part="1" 
+AR Path="/601362B6" Ref="R?"  Part="1" 
+F 0 "R?" H 3209 3422 20  0000 L CNN
+F 1 "10K" H 3209 3379 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 3400 50  0001 C CNN
+F 3 "~" H 3150 3400 50  0001 C CNN
+	1    3150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3750 3150 3650
+Wire Wire Line
+	3150 3300 3150 3150
+$Comp
+L power:GND #PWR?
+U 1 1 6014CAC7
+P 3150 3750
+AR Path="/5FD5E119/6014CAC7" Ref="#PWR?"  Part="1" 
+AR Path="/6014CAC7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3150 3500 50  0001 C CNN
+F 1 "GND" H 3155 3577 50  0000 C CNN
+F 2 "" H 3150 3750 50  0001 C CNN
+F 3 "" H 3150 3750 50  0001 C CNN
+	1    3150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3250 3300 3250
+Wire Wire Line
+	5500 3250 5750 3250
+Wire Wire Line
+	5750 3250 5750 3650
+Wire Wire Line
+	5750 3650 3150 3650
+Connection ~ 3150 3650
+Wire Wire Line
+	3150 3650 3150 3500
+$Comp
+L D5V0L2B3SO7:D5V0L2B3SO-7 U?
+U 1 1 601C9880
+P 9200 2600
+F 0 "U?" H 10400 2113 60  0000 C CNN
+F 1 "D5V0L2B3SO-7" H 10400 2219 60  0000 C CNN
+F 2 "D5V0L2B3SO7:D5V0L2B3SO-7" H 10400 2840 60  0001 C CNN
+F 3 "" H 9200 2600 60  0000 C CNN
+	1    9200 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 601CD7E9
+P 5950 2950
+AR Path="/5FD5E119/601CD7E9" Ref="R?"  Part="1" 
+AR Path="/601CD7E9" Ref="R?"  Part="1" 
+F 0 "R?" H 6009 2972 20  0000 L CNN
+F 1 "10R" H 6009 2929 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 2950 50  0001 C CNN
+F 3 "~" H 5950 2950 50  0001 C CNN
+	1    5950 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 601D956D
+P 5950 3250
+AR Path="/5FD5E119/601D956D" Ref="R?"  Part="1" 
+AR Path="/601D956D" Ref="R?"  Part="1" 
+F 0 "R?" H 6009 3272 20  0000 L CNN
+F 1 "10R" H 6009 3229 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 3250 50  0001 C CNN
+F 3 "~" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 3150 5850 3150
+Wire Wire Line
+	5850 3150 5850 3250
+Wire Wire Line
+	5500 3050 5850 3050
+Wire Wire Line
+	5850 3050 5850 2950
+Text GLabel 6250 3650 3    39   Input ~ 0
+5V
+$Comp
+L Device:R_Small R?
+U 1 1 602397BC
+P 6250 3400
+AR Path="/5FD5E119/602397BC" Ref="R?"  Part="1" 
+AR Path="/602397BC" Ref="R?"  Part="1" 
+F 0 "R?" H 6309 3422 20  0000 L CNN
+F 1 "10K" H 6309 3379 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 3400 50  0001 C CNN
+F 3 "~" H 6250 3400 50  0001 C CNN
+	1    6250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3500 6250 3650
+Wire Wire Line
+	6250 3300 6250 3250
+Wire Wire Line
+	6250 3250 6050 3250
+$Comp
+L Device:R_Small R?
+U 1 1 6025E930
+P 6250 3100
+AR Path="/5FD5E119/6025E930" Ref="R?"  Part="1" 
+AR Path="/6025E930" Ref="R?"  Part="1" 
+F 0 "R?" H 6309 3122 20  0000 L CNN
+F 1 "10R" H 6309 3079 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 3100 50  0001 C CNN
+F 3 "~" H 6250 3100 50  0001 C CNN
+	1    6250 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 3250 6250 3200
+Connection ~ 6250 3250
+Wire Wire Line
+	6250 3000 6250 2950
+Wire Wire Line
+	6250 2950 6050 2950
+$Comp
+L Device:R_Small R?
+U 1 1 6028441C
+P 6250 2800
+AR Path="/5FD5E119/6028441C" Ref="R?"  Part="1" 
+AR Path="/6028441C" Ref="R?"  Part="1" 
+F 0 "R?" H 6309 2822 20  0000 L CNN
+F 1 "10R" H 6309 2779 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2800 50  0001 C CNN
+F 3 "~" H 6250 2800 50  0001 C CNN
+	1    6250 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 2950 6250 2900
+Connection ~ 6250 2950
+$Comp
+L power:GND #PWR?
+U 1 1 6029DF47
+P 6250 2550
+AR Path="/5FD5E119/6029DF47" Ref="#PWR?"  Part="1" 
+AR Path="/6029DF47" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6250 2300 50  0001 C CNN
+F 1 "GND" H 6255 2377 50  0000 C CNN
+F 2 "" H 6250 2550 50  0001 C CNN
+F 3 "" H 6250 2550 50  0001 C CNN
+	1    6250 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 2950 6550 2950
+Wire Wire Line
+	6550 2950 6550 2500
+Wire Wire Line
+	6550 2500 6800 2500
+Wire Wire Line
+	6250 2700 6250 2600
+Wire Wire Line
+	6800 2600 6250 2600
+Connection ~ 6250 2600
+Wire Wire Line
+	6250 2600 6250 2550
+Wire Wire Line
+	6250 3250 9200 3250
+Wire Wire Line
+	9200 3250 9200 2600
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 603131D4
+P 9900 2750
+F 0 "J?" H 9980 2792 50  0000 L CNN
+F 1 "Conn_01x03" H 9980 2701 50  0000 L CNN
+F 2 "" H 9900 2750 50  0001 C CNN
+F 3 "~" H 9900 2750 50  0001 C CNN
+	1    9900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60314365
+P 9600 2600
+AR Path="/5FD5E119/60314365" Ref="#PWR?"  Part="1" 
+AR Path="/60314365" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9600 2350 50  0001 C CNN
+F 1 "GND" H 9605 2427 50  0000 C CNN
+F 2 "" H 9600 2600 50  0001 C CNN
+F 3 "" H 9600 2600 50  0001 C CNN
+	1    9600 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 2650 9600 2650
+Wire Wire Line
+	9600 2650 9600 2600
+Wire Wire Line
+	9700 2750 9450 2750
+Wire Wire Line
+	9450 2750 9450 3050
+Wire Wire Line
+	9450 3050 6550 3050
+Wire Wire Line
+	6550 3050 6550 2950
+Connection ~ 6550 2950
+Wire Wire Line
+	9700 2850 9700 3250
+Wire Wire Line
+	9700 3250 9200 3250
+Connection ~ 9200 3250
 $EndSCHEMATC
