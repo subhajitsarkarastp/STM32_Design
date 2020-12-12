@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:STM32F429VET6-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,4 +74,14 @@ F 3 "" H 4500 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4500 7050 4500 6750
+Text GLabel 5200 5550 2    39   Input ~ 0
+I2S_MCLK
+Text GLabel 5200 5650 2    39   Input ~ 0
+AUDIO_EN
+Text GLabel 5200 5750 2    39   Input ~ 0
+SD_DAT0
+Text GLabel 3400 5750 0    39   Input ~ 0
+USART3_TX
+Text GLabel 3400 5850 0    39   Input ~ 0
+USART3_RX
 $EndSCHEMATC
