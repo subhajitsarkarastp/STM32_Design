@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -14,19 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L RF_Module:ESP32-WROOM-32 U?
-U 1 1 5FD62675
-P 10150 3300
-AR Path="/5FD62675" Ref="U?"  Part="1" 
-AR Path="/5FD5E119/5FD62675" Ref="U?"  Part="1" 
-F 0 "U?" H 10150 4881 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 10150 4790 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 10150 1800 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 9850 3350 50  0001 C CNN
-	1    10150 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Quectel_L86:L86 U?
 U 1 1 5FD627D5
@@ -984,4 +971,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 1600 50  0001 C CNN
 	1    5600 1600
 	0    1    1    0   
 $EndComp
+$Sheet
+S 8500 5100 1800 950 
+U 60922ED4
+F0 "ESP32-WROOM-32" 39
+F1 "ESP32-WROOM-32.sch" 39
+$EndSheet
 $EndSCHEMATC

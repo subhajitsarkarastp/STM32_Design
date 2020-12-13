@@ -1972,4 +1972,200 @@ Wire Wire Line
 Connection ~ 4350 6850
 Wire Wire Line
 	4350 6850 4000 6850
+$Comp
+L Connector_Generic:Conn_01x20 J?
+U 1 1 6063FBAB
+P 9600 4750
+F 0 "J?" H 9680 4742 50  0000 L CNN
+F 1 "GLCD" H 9680 4651 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal" H 9600 4750 50  0001 C CNN
+F 3 "~" H 9600 4750 50  0001 C CNN
+	1    9600 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9400 3850 0    39   Input ~ 0
+CS1B
+Text GLabel 9400 3950 0    39   Input ~ 0
+RES
+Text GLabel 9400 4050 0    39   Input ~ 0
+A0
+Text GLabel 7550 5750 0    39   Input ~ 0
+GLCD_LED_CONTROL
+Text GLabel 9400 4150 0    39   Input ~ 0
+GLCD_SCLK
+Text GLabel 9400 4250 0    39   Input ~ 0
+GLCD_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 606D6C27
+P 9250 4350
+F 0 "#PWR?" H 9250 4100 50  0001 C CNN
+F 1 "GND" H 9255 4177 50  0000 C CNN
+F 2 "" H 9250 4350 50  0001 C CNN
+F 3 "" H 9250 4350 50  0001 C CNN
+	1    9250 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 4350 9400 4350
+Text GLabel 7900 4450 0    39   Input ~ 0
+3.3V
+$Comp
+L Device:C_Small C?
+U 1 1 60730320
+P 8550 4650
+AR Path="/5FD5E119/60730320" Ref="C?"  Part="1" 
+AR Path="/60730320" Ref="C?"  Part="1" 
+AR Path="/5FE8625C/60730320" Ref="C?"  Part="1" 
+F 0 "C?" H 8642 4672 20  0000 L CNN
+F 1 "1uf/50V" H 8642 4629 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 4650 50  0001 C CNN
+F 3 "~" H 8550 4650 50  0001 C CNN
+	1    8550 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60753845
+P 8250 4650
+AR Path="/5FD5E119/60753845" Ref="C?"  Part="1" 
+AR Path="/60753845" Ref="C?"  Part="1" 
+AR Path="/5FE8625C/60753845" Ref="C?"  Part="1" 
+F 0 "C?" H 8342 4672 20  0000 L CNN
+F 1 "1uf/50V" H 8342 4629 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 4650 50  0001 C CNN
+F 3 "~" H 8250 4650 50  0001 C CNN
+	1    8250 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 4450 8250 4450
+Wire Wire Line
+	8250 4550 8250 4450
+Connection ~ 8250 4450
+Wire Wire Line
+	8550 4550 8550 4450
+Wire Wire Line
+	8250 4450 8550 4450
+Connection ~ 8550 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6079C997
+P 8400 4900
+F 0 "#PWR?" H 8400 4650 50  0001 C CNN
+F 1 "GND" H 8405 4727 50  0000 C CNN
+F 2 "" H 8400 4900 50  0001 C CNN
+F 3 "" H 8400 4900 50  0001 C CNN
+	1    8400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4900 8400 4750
+Wire Wire Line
+	8250 4750 8400 4750
+Wire Wire Line
+	8400 4750 8550 4750
+Connection ~ 8400 4750
+Wire Wire Line
+	8550 4450 9400 4450
+Text GLabel 9150 4550 0    39   Input ~ 0
+LED_A
+Text GLabel 7700 5150 0    39   Input ~ 0
+LED_A
+Text GLabel 9150 4650 0    39   Input ~ 0
+LED_K
+Text GLabel 8450 5450 2    39   Input ~ 0
+LED_K
+Wire Wire Line
+	9400 4550 9150 4550
+Wire Wire Line
+	9150 4650 9400 4650
+$Comp
+L Device:R_Small R?
+U 1 1 6085A9F4
+P 8150 5150
+AR Path="/5FD5E119/6085A9F4" Ref="R?"  Part="1" 
+AR Path="/6085A9F4" Ref="R?"  Part="1" 
+AR Path="/5FE8625C/6085A9F4" Ref="R?"  Part="1" 
+F 0 "R?" H 8209 5172 20  0000 L CNN
+F 1 "1K" H 8209 5129 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 5150 50  0001 C CNN
+F 3 "~" H 8150 5150 50  0001 C CNN
+	1    8150 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 5150 8050 5150
+Text GLabel 8700 5150 1    39   Input ~ 0
+5V
+Wire Wire Line
+	8700 5150 8250 5150
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 608BD6FE
+P 8200 5750
+F 0 "Q?" H 8390 5796 50  0000 L CNN
+F 1 "BC547-SMD" H 8390 5705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8400 5675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8200 5750 50  0001 L CNN
+	1    8200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608BD704
+P 8300 6100
+F 0 "#PWR?" H 8300 5850 50  0001 C CNN
+F 1 "GND" H 8305 5927 50  0000 C CNN
+F 2 "" H 8300 6100 50  0001 C CNN
+F 3 "" H 8300 6100 50  0001 C CNN
+	1    8300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 608BD70A
+P 7950 5950
+AR Path="/5FD5E119/608BD70A" Ref="R?"  Part="1" 
+AR Path="/608BD70A" Ref="R?"  Part="1" 
+AR Path="/5FE8625C/608BD70A" Ref="R?"  Part="1" 
+F 0 "R?" H 8009 5972 20  0000 L CNN
+F 1 "10K" H 8009 5929 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7950 5950 50  0001 C CNN
+F 3 "~" H 7950 5950 50  0001 C CNN
+	1    7950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 608BD710
+P 7650 5750
+AR Path="/5FD5E119/608BD710" Ref="R?"  Part="1" 
+AR Path="/608BD710" Ref="R?"  Part="1" 
+AR Path="/5FE8625C/608BD710" Ref="R?"  Part="1" 
+F 0 "R?" H 7709 5772 20  0000 L CNN
+F 1 "1K" H 7709 5729 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 5750 50  0001 C CNN
+F 3 "~" H 7650 5750 50  0001 C CNN
+	1    7650 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 5750 7950 5750
+Connection ~ 7950 5750
+Wire Wire Line
+	7950 5750 8000 5750
+Wire Wire Line
+	7950 6100 8300 6100
+Connection ~ 8300 6100
+Wire Wire Line
+	7950 5850 7950 5750
+Wire Wire Line
+	8300 5950 8300 6100
+Wire Wire Line
+	7950 6100 7950 6050
+Wire Wire Line
+	8300 5550 8300 5450
+Wire Wire Line
+	8300 5450 8450 5450
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -1977,7 +1977,7 @@ L Connector_Generic:Conn_01x20 J?
 U 1 1 6063FBAB
 P 9600 4750
 F 0 "J?" H 9680 4742 50  0000 L CNN
-F 1 "Conn_01x20" H 9680 4651 50  0000 L CNN
+F 1 "GLCD" H 9680 4651 50  0000 L CNN
 F 2 "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal" H 9600 4750 50  0001 C CNN
 F 3 "~" H 9600 4750 50  0001 C CNN
 	1    9600 4750
