@@ -1522,4 +1522,106 @@ Wire Wire Line
 Wire Wire Line
 	9700 3250 9200 3250
 Connection ~ 9200 3250
+$Comp
+L T80-75HCP:T80-75HCP U?
+U 1 1 5FD75780
+P 8500 5150
+F 0 "U?" H 8500 5475 50  0000 C CNN
+F 1 "T80-75HCP" H 8500 5384 50  0000 C CNN
+F 2 "" H 8500 5150 50  0001 C CNN
+F 3 "" H 8500 5150 50  0001 C CNN
+	1    8500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4850 7800 4800
+Text GLabel 7800 4700 1    39   Input ~ 0
+3.3V
+$Comp
+L Device:R_Small R?
+U 1 1 5FD84F8C
+P 7800 4950
+AR Path="/5FD5E119/5FD84F8C" Ref="R?"  Part="1" 
+AR Path="/5FD84F8C" Ref="R?"  Part="1" 
+F 0 "R?" H 7859 4972 20  0000 L CNN
+F 1 "10K" H 7859 4929 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4950 50  0001 C CNN
+F 3 "~" H 7800 4950 50  0001 C CNN
+	1    7800 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5050 7800 5050
+Text GLabel 8800 5350 2    39   Input ~ 0
+SERIAL_FLASH_MOSI
+Text GLabel 7500 5150 0    39   Input ~ 0
+SERIAL_FLASH_MISO
+Text GLabel 8800 5250 2    39   Input ~ 0
+SERIAL_FLASH_CLK
+Text GLabel 7450 5050 0    39   Input ~ 0
+SERIAL_FLASH_CS
+Wire Wire Line
+	7450 5050 7800 5050
+Connection ~ 7800 5050
+Wire Wire Line
+	7500 5150 8200 5150
+Wire Wire Line
+	8200 5250 7900 5250
+Wire Wire Line
+	7900 5250 7900 4800
+Wire Wire Line
+	7900 4800 7800 4800
+Connection ~ 7800 4800
+Wire Wire Line
+	7800 4800 7800 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5FDFC7E1
+P 8200 5350
+AR Path="/5FD5E119/5FDFC7E1" Ref="#PWR?"  Part="1" 
+AR Path="/5FDFC7E1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 5100 50  0001 C CNN
+F 1 "GND" H 8205 5177 50  0000 C CNN
+F 2 "" H 8200 5350 50  0001 C CNN
+F 3 "" H 8200 5350 50  0001 C CNN
+	1    8200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4800 8800 4800
+Wire Wire Line
+	8800 4800 8800 5050
+Connection ~ 7900 4800
+Connection ~ 8800 5050
+Wire Wire Line
+	8800 5050 8800 5150
+$Comp
+L Device:C_Small C?
+U 1 1 5FE1BA0E
+P 9150 4800
+AR Path="/5FD5E119/5FE1BA0E" Ref="C?"  Part="1" 
+AR Path="/5FE1BA0E" Ref="C?"  Part="1" 
+F 0 "C?" H 9100 4750 20  0000 L CNN
+F 1 "0.1uf/25V" V 9250 4750 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 4800 50  0001 C CNN
+F 3 "~" H 9150 4800 50  0001 C CNN
+	1    9150 4800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8800 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5FE49086
+P 9250 4800
+AR Path="/5FD5E119/5FE49086" Ref="#PWR?"  Part="1" 
+AR Path="/5FE49086" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9250 4550 50  0001 C CNN
+F 1 "GND" H 9255 4627 50  0000 C CNN
+F 2 "" H 9250 4800 50  0001 C CNN
+F 3 "" H 9250 4800 50  0001 C CNN
+	1    9250 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 4800 9050 4800
 $EndSCHEMATC
