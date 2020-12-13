@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -198,9 +198,6 @@ Text GLabel 3900 1750 2    39   Input ~ 0
 USART2_TX
 Text GLabel 3900 1650 2    39   Input ~ 0
 USART2_DE
-Connection ~ 4300 6250
-Wire Wire Line
-	4000 6250 4300 6250
 Wire Wire Line
 	4000 6350 4000 6250
 Wire Wire Line
@@ -244,17 +241,6 @@ F 1 "10pf/25V" V 4486 6250 20  0000 C CNN
 F 2 "" H 4600 6250 50  0001 C CNN
 F 3 "~" H 4600 6250 50  0001 C CNN
 	1    4600 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Crystal Y?
-U 1 1 5FD5FA68
-P 4300 6450
-F 0 "Y?" V 4322 6319 20  0000 R CNN
-F 1 "32.67KHZ" V 4279 6319 20  0000 R CNN
-F 2 "" H 4300 6450 50  0001 C CNN
-F 3 "~" H 4300 6450 50  0001 C CNN
-	1    4300 6450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -382,8 +368,6 @@ Text GLabel 2100 5150 0    39   Input ~ 0
 SD_CMD
 Text GLabel 2100 5050 0    39   Input ~ 0
 MICSD_DETECTION
-Text GLabel 3900 6150 2    39   Input ~ 0
-SD_CLK
 Text GLabel 3900 2950 2    39   Input ~ 0
 SYS_JTCK_SWCLK
 $Comp
@@ -980,4 +964,20 @@ F 3 "" H 5600 2050 50  0001 C CNN
 	1    5600 2050
 	1    0    0    -1  
 $EndComp
+Connection ~ 4300 6250
+Text GLabel 3900 6150 2    39   Input ~ 0
+SD_CLK
+$Comp
+L Device:Crystal Y?
+U 1 1 5FD5FA68
+P 4300 6450
+F 0 "Y?" V 4322 6319 20  0000 R CNN
+F 1 "32.67KHZ" V 4279 6319 20  0000 R CNN
+F 2 "" H 4300 6450 50  0001 C CNN
+F 3 "~" H 4300 6450 50  0001 C CNN
+	1    4300 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 6250 4300 6250
 $EndSCHEMATC

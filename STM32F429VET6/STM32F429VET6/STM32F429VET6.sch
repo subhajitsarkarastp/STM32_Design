@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -79,7 +79,7 @@ $EndComp
 Wire Wire Line
 	1100 1450 1100 1250
 Wire Wire Line
-	1100 1250 1400 1250
+	1100 1250 1200 1250
 Wire Wire Line
 	1100 1550 1100 1750
 Wire Wire Line
@@ -1624,4 +1624,17 @@ F 3 "" H 9250 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 4800 9050 4800
+$Sheet
+S 8750 700  900  600 
+U 5FE8625C
+F0 "Supporting_IC's" 50
+F1 "Supporting_IC's.sch" 50
+$EndSheet
+Text GLabel 1200 1150 1    39   Input ~ 0
+24V
+Wire Wire Line
+	1200 1250 1200 1150
+Connection ~ 1200 1250
+Wire Wire Line
+	1200 1250 1400 1250
 $EndSCHEMATC
