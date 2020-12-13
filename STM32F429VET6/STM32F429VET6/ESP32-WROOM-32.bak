@@ -20,8 +20,8 @@ U 1 1 60928984
 P 4350 3350
 AR Path="/60928984" Ref="U?"  Part="1" 
 AR Path="/5FD5E119/60928984" Ref="U?"  Part="1" 
-AR Path="/5FD5E119/60922ED4/60928984" Ref="e"  Part="1" 
-F 0 "e" H 4450 4750 50  0000 C CNN
+AR Path="/5FD5E119/60922ED4/60928984" Ref="U?"  Part="1" 
+F 0 "U?" H 4450 4750 50  0000 C CNN
 F 1 "ESP32-WROOM-32" V 4400 3650 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 4350 1850 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 4050 3400 50  0001 C CNN

@@ -977,4 +977,20 @@ U 60922ED4
 F0 "ESP32-WROOM-32" 39
 F1 "ESP32-WROOM-32.sch" 39
 $EndSheet
+Text GLabel 7550 4450 2    39   Input ~ 0
+UART2_RX(ESP)
+Text GLabel 7550 4550 2    39   Input ~ 0
+UART2_TX(ESP)
+Text GLabel 2100 3950 0    39   Input ~ 0
+UART7_RX
+Text GLabel 2100 4050 0    39   Input ~ 0
+UART7_TX
+Text GLabel 7300 4550 0    39   Input ~ 0
+UART7_RX
+Text GLabel 7300 4450 0    39   Input ~ 0
+UART7_TX
+Wire Wire Line
+	7550 4450 7300 4450
+Wire Wire Line
+	7300 4550 7550 4550
 $EndSCHEMATC
