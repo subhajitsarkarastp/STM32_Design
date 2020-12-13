@@ -911,28 +911,6 @@ Wire Wire Line
 	5600 1050 5600 950 
 Text GLabel 5600 950  1    39   Input ~ 0
 3.3V
-$Comp
-L Device:D D?
-U 1 1 5FE420F1
-P 5600 1200
-F 0 "D?" V 5646 1121 50  0000 R CNN
-F 1 "D" V 5555 1121 50  0000 R CNN
-F 2 "" H 5600 1200 50  0001 C CNN
-F 3 "~" H 5600 1200 50  0001 C CNN
-	1    5600 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5FE429DA
-P 5600 1600
-F 0 "D?" V 5646 1521 50  0000 R CNN
-F 1 "D" V 5555 1521 50  0000 R CNN
-F 2 "" H 5600 1600 50  0001 C CNN
-F 3 "~" H 5600 1600 50  0001 C CNN
-	1    5600 1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5600 1450 5600 1400
 Text GLabel 5200 1400 0    39   Input ~ 0
@@ -980,4 +958,26 @@ F 3 "~" H 4300 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 6250 4300 6250
+$Comp
+L Diode:1N4148W D?
+U 1 1 606285B0
+P 5600 1200
+F 0 "D?" V 5554 1280 50  0000 L CNN
+F 1 "T4" V 5645 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5600 1025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 1200 50  0001 C CNN
+	1    5600 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 60633318
+P 5600 1600
+F 0 "D?" V 5554 1680 50  0000 L CNN
+F 1 "T4" V 5645 1680 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5600 1425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 1600 50  0001 C CNN
+	1    5600 1600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

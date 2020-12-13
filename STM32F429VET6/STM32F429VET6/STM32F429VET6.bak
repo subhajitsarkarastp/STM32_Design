@@ -79,7 +79,7 @@ $EndComp
 Wire Wire Line
 	1100 1450 1100 1250
 Wire Wire Line
-	1100 1250 1400 1250
+	1100 1250 1200 1250
 Wire Wire Line
 	1100 1550 1100 1750
 Wire Wire Line
@@ -1630,4 +1630,11 @@ U 5FE8625C
 F0 "Supporting_IC's" 50
 F1 "Supporting_IC's.sch" 50
 $EndSheet
+Text GLabel 1200 1150 1    39   Input ~ 0
+24V
+Wire Wire Line
+	1200 1250 1200 1150
+Connection ~ 1200 1250
+Wire Wire Line
+	1200 1250 1400 1250
 $EndSCHEMATC
